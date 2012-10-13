@@ -14,6 +14,15 @@
 
 @implementation popViewController
 
+- (IBAction)showpop
+{
+    UIPopoverController *pop = [[UIPopoverController alloc] initWithContentViewController:popoverView];
+    [pop setDelegate:self];
+    pop.popoverContentSize = CGSizeMake(280, 120);
+    [pop presentPopoverFromRect:popButton.frame inView:self.view
+       permittedArrowDirections:UIPopoverArrowDirectionUp animated:YES];
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];

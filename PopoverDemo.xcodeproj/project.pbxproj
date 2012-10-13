@@ -18,6 +18,7 @@
 		8F931DA21629BC7C009EEE76 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F931DA11629BC7C009EEE76 /* Default-568h@2x.png */; };
 		8F931DA51629BC7C009EEE76 /* popViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F931DA41629BC7C009EEE76 /* popViewController.m */; };
 		8F931DA81629BC7C009EEE76 /* popViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F931DA61629BC7C009EEE76 /* popViewController.xib */; };
+		8F931DB01629BDD4009EEE76 /* UIPopover+iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F931DAF1629BDD4009EEE76 /* UIPopover+iPhone.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,8 @@
 		8F931DA31629BC7C009EEE76 /* popViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = popViewController.h; sourceTree = "<group>"; };
 		8F931DA41629BC7C009EEE76 /* popViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = popViewController.m; sourceTree = "<group>"; };
 		8F931DA71629BC7C009EEE76 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/popViewController.xib; sourceTree = "<group>"; };
+		8F931DAE1629BDD4009EEE76 /* UIPopover+iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIPopover+iPhone.h"; sourceTree = "<group>"; };
+		8F931DAF1629BDD4009EEE76 /* UIPopover+iPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIPopover+iPhone.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				8F931DA41629BC7C009EEE76 /* popViewController.m */,
 				8F931DA61629BC7C009EEE76 /* popViewController.xib */,
 				8F931D921629BC7C009EEE76 /* Supporting Files */,
+				8F931DAE1629BDD4009EEE76 /* UIPopover+iPhone.h */,
+				8F931DAF1629BDD4009EEE76 /* UIPopover+iPhone.m */,
 			);
 			path = PopoverDemo;
 			sourceTree = "<group>";
@@ -177,6 +182,7 @@
 				8F931D981629BC7C009EEE76 /* main.m in Sources */,
 				8F931D9C1629BC7C009EEE76 /* popAppDelegate.m in Sources */,
 				8F931DA51629BC7C009EEE76 /* popViewController.m in Sources */,
+				8F931DB01629BDD4009EEE76 /* UIPopover+iPhone.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
